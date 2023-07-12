@@ -10,6 +10,7 @@ Gem::Specification.new do |s|
   s.files         = ['lib/strict_json_schema_generator.rb']
   s.homepage      = 'https://github.com/AlexandreBernard/rb_strict_json_schema_generator'
   s.metadata      = { 'source_code_uri' => 'https://github.com/AlexandreBernard/rb_strict_json_schema_generator' }
-
+  s.required_rubygems_version = '>= 2.5'
+  
   s.add_runtime_dependency 'json-schema', '~> 4.0'
 end
