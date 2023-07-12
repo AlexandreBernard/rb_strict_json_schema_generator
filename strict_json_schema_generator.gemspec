@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.authors       = ['Alexandre Bernard']
   s.email         = 'archiduc@alexandrebernard.com'
   s.require_path  = 'lib'
-  s.files         = ['lib/strict_json_schema_generator.rb']
+  s.files         = Dir['lib/**/*']
   s.homepage      = 'https://github.com/AlexandreBernard/rb_strict_json_schema_generator'
   s.metadata      = { 'source_code_uri' => 'https://github.com/AlexandreBernard/rb_strict_json_schema_generator' }
   s.required_rubygems_version = '>= 2.5'
