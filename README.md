@@ -1,0 +1,1 @@
+# rb_strict_json_schema_generator
